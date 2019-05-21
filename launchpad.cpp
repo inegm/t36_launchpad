@@ -16,8 +16,8 @@ void setup()
 {
     Serial.begin(115200);
     delay(1500);
-    delay(10);
     pad.begin();
+    delay(10);
     pad.setHandleNoteOn(noteOnHandler);
     pad.setHandleNoteOff(noteOffHandler);
     pad.setHandleControlChange(controlChangeHandler);
