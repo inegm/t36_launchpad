@@ -2,7 +2,6 @@
 #define LAUNCHPAD_H
 
 #include <cstdint>
-using std::uint8_t;
 #include <USBHost_t36.h>
 
 
